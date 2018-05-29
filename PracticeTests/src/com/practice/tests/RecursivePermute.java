@@ -19,7 +19,7 @@ public class RecursivePermute
             System.out.println(val);
         }
 
-        //Condition for creating more for loops
+        //Creating more for loops for every recursion call
         for(int i=depth;i<val.length;i++)
         {
             TestClass.swap(val, depth, i);
